@@ -6,7 +6,7 @@ Um mini jogo interativo feito com HTML, CSS e JavaScript, onde o desafio é adiv
 
 ## 📸 Prévia do jogo
 
-![Ache o Sr. Sapinho](./imagens/inicio.png)
+![Ache o Sr. Sapinho](./assets/inicio.png)
 
 ---
 
