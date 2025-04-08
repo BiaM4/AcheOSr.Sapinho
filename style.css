@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+    background: rgb(194, 125, 240);
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  .balde {
+    max-width: 225px;
+  }
+
+
+  .titulo{
+    margin-bottom: 25px;
+  }
+  
+  .container {
+    background: url("https://i.postimg.cc/mrdR9rjF/13717340-lagoa-da-floresta-dos-desenhos-animados-ou-fundo-do-pantano-madeira-profunda-gratis-vetor.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.504);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+
+  .botoesGeral{
+    display: flex;
+    gap: 25px;
+    
+  }
+  
+  .botao{
+    padding: 20px 40px;
+    border-radius: 8px;
+    border:none;
+    background-color: transparent;
+   
+  }
+
+  .inicioWrape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inicio{
+    margin-top: 10px;
+    padding: 15px 80px;
+    border-radius: 8px;
+    border:none;
+    background-color: rgb(15, 139, 36);
+    color: white;
+    font: bold 14px arial;
+    transition: background-color 0.3s ease;
+
+  }
+
+  .inicio:hover {
+    background-color: rgb(9, 84, 21);
+  }
+
+  .comemoracao{
+    font: bold 25px arial;
+    text-align: center;
+  }
+
+  .placar{
+    text-align: center;
+    gap: 20px;
+    font: normal 18px arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .resp{
+     font: normal 18px arial;
+     text-align: center;
+  }
+
+  .incentivo{
+    font: normal 18px arial;
+     text-align: center;
+     margin-bottom: 10px;
+  }
+  

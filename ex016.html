@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ache o Sr.sapinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="container">
+        <img src="https://i.postimg.cc/8zL2s2Mr/b41b0ef976b08b2dd52b33e81e48598e.png" alt="titulo" class="titulo">
+        <div class="content">
+          <h1 id="comemoracao" class="comemoracao">Bem-vindo(a)</h1>
+
+          <div class="placar">
+            <p id="tempo" class="tempo">⏳ Tempo restante: 60s</p>
+            <p class="rodada" id="rodada">💫Rodada:0</p>
+          </div>
+
+          
+          <p id="resp" class="resp">Que tal jogar um pouco?</p>
+          
+
+          <p id ="incentivo" class="incentivo">Clique em começar para escolher um balde</p>
+
+          <div class="inicioWrape">
+            <button id ="inicio" class="inicio" onclick="iniciarRodada()">Começar</button>
+          </div>
+
+        </div>
+
+        <div class="botoesGeral" id="botoesGeral">
+          <button id="balde1" class="botao" onclick="jogar(this)" value="1">
+            <img src="https://i.postimg.cc/HswjJPWM/balde-Metal-2.png" alt="Logo" class="balde">
+          </button>
+        
+          <button id="balde2" class="botao" onclick="jogar(this)" value="2">
+            <img src="https://i.postimg.cc/HswjJPWM/balde-Metal-2.png" alt="Logo" class="balde">
+          </button>
+        
+          <button id="balde3" class="botao" onclick="jogar(this)" value="3">
+            <img src="https://i.postimg.cc/HswjJPWM/balde-Metal-2.png" alt="Logo" class="balde">
+          </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
