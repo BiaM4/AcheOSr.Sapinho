@@ -18,7 +18,7 @@ Um mini jogo interativo feito com HTML, CSS e JavaScript, onde o desafio é adiv
 4. Acertou? Avance para a próxima rodada!
 5. Errou? Tente novamente clicando em "Recomeçar".
 
-Se acertar os 3 rounds, você vence o jogo! 🎉
+Se encontrar ele nas 3 rodadas, você vence o jogo! 🎉
 
 ---
 
@@ -43,12 +43,6 @@ Caso você seja o(a) autor(a) de alguma das imagens/animações e deseje que ela
 ## 💡 Objetivo do projeto
 
 Este jogo foi desenvolvido com fins educacionais, para praticar lógica de programação, manipulação do DOM, timers e interações com o usuário. É também uma forma divertida de exercitar criatividade e organização de código.
-
----
-
-## 🚀 Demonstração
-
-> Esse projeto está disponível apenas como repositório no GitHub por enquanto.  
 
 ---
 
